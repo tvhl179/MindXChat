@@ -1,0 +1,52 @@
+.d-flex {
+    display: flex;
+}
+
+
+.flex-column {
+    flex-direction: column;
+}
+
+.centering {
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message{
+    color: red;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.item {
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.conversation-item {
+    border:  1px solid black;
+    border-radius: 10px;
+    margin: 2px 5px;
+    padding: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.conversation-item:hover {
+    background-color: seagreen;
+}
+
+.conversation-item.active {
+    background-color: slateblue;
+}
+
+.justify-between {
+    justify-content: space-between;    
+}
